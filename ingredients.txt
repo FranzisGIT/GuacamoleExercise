@@ -5,4 +5,3 @@
 * tabasco
 * garlic
 * chilly
-* tomatocheesfd
