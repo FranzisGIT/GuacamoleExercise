@@ -43,9 +43,9 @@ FROM
 	 BHIMAGE.VW_STILLS_VME
 ;
 
-
+-- change file name for testing GIT
 @export on;
-@export set filename="C:\Data\2018_SeamountSurvey\data\IN2018_V06\Imagery\AllDataExtract\IN2018_V06_STILLS_VME_20190717.csv" format="csv" CsvColumnDelimiter=",";
+@export set filename="C:\Data\2018_SeamountSurvey\data\IN2018_V06\Imagery\AllDataExtract\IN2018_V06_STILLS_VME_20190717_giy.csv" format="csv" CsvColumnDelimiter=",";
 -- select path and file name for output that works for you and increase Max Row for output
 
 SELECT 
